@@ -34,12 +34,12 @@ function Profile() {
 function Skilllist() {
   return (
     <ul className="skill-list">
-      <Skill skill="HTML + CSS" emoji="👍" color="red" />
       <Skill skill="Javascript" emoji="👍" color="yellow" />
-      <Skill skill="React" emoji="👍" color="lightblue" />
-      <Skill skill="nodeJs + Express.Js" emoji="👍" color="lightgreen" />
-      <Skill skill="SQL + PostgresSQL" emoji="👍" color="salmon" />
-      <Skill skill="Git + GitHub" emoji="👍" color="grey" />
+      <Skill skill="Node.js + Express.js" emoji="👍" color="#7fc729" />
+      <Skill skill="SQL + PostgreSQL" emoji="👍" color="#3f87bf" />
+      <Skill skill="HTML + CSS" emoji="👍" color="#e96328" />
+      <Skill skill="React" emoji="👍" color="#5ed2f3" />
+      <Skill skill="Git + GitHub" emoji="👍" color="lightgrey" />
     </ul>
   );
 }
